@@ -1,3 +1,4 @@
+# Jeff Vukovits - SDEV220 - Automobile Information System
 class Automobile():
     def Vehicle(self):
         # Class created to hold information about vehicle, awaiting user input
@@ -23,4 +24,5 @@ class Automobile():
     print((lambda Vehicle: f"\nVehicle Information:\n\nType: {Vehicle.vtype.capitalize()}\nYear: {Vehicle.year}\nMake: {Vehicle.make.capitalize()}\nModel: {Vehicle.model.capitalize()}\nNumber of Doors: {Vehicle.num_doors}\nRoof Type: {Vehicle.roof_type.capitalize()}")(Vehicle))
 
     print("\nThank you for using the Automobile Information System!\nHave a great day and hope to see you again soon!\n")
+
 
