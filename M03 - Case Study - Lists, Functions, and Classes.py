@@ -1,5 +1,6 @@
 class Automobile():
     def Vehicle(self):
+        # Class created to hold information about vehicle, awaiting user input
         vtype = input()
         year = input()
         make = input()
@@ -9,7 +10,7 @@ class Automobile():
 
         return
 
-
+    # Asks for user input of their vehicle information
     print("Welcome to the Automobile Information System!\n")
     Vehicle.vtype = input("What type of vehicle do you have? (e.g., car, truck, plane, boat, or broomstick) ")
     Vehicle.year = input("What is the year of your vehicle? ")
@@ -18,6 +19,8 @@ class Automobile():
     Vehicle.num_doors = input("How many doors does your vehicle have? ")
     Vehicle.roof_type = input("What is the roof type of your vehicle? (solid or sunroof) ")
 
+    # Outputs the vehicle information the user has entered
     print((lambda Vehicle: f"\nVehicle Information:\n\nType: {Vehicle.vtype.capitalize()}\nYear: {Vehicle.year}\nMake: {Vehicle.make.capitalize()}\nModel: {Vehicle.model.capitalize()}\nNumber of Doors: {Vehicle.num_doors}\nRoof Type: {Vehicle.roof_type.capitalize()}")(Vehicle))
 
     print("\nThank you for using the Automobile Information System!\nHave a great day and hope to see you again soon!\n")
+
